@@ -1,0 +1,1 @@
+A sample project that generates an error when trying to link OCMock into the project due to header issue
