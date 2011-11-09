@@ -1,182 +1,0 @@
-TMyView1Test
-v4
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/Info.plist MyView1Test/MyView1Test-Info.plist
-cProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch.pth MyView1Test/MyView1Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/SampleLibTest.o /Developer/MyView1/MyView1Test/SampleLibTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/main.o /Developer/MyView1/MyView1Test/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-
-N/Developer/MyView1/GHUnitIOS.framework/GHUnitIOS
-c000000004EB9DB9C00000000002A8F84
-t1320803228
-s2789252
-
-N/Developer/MyView1/MyView1/AppDelegate.h
-c000000004EB9DB57000000000000017C
-t1320803159
-s380
-
-N/Developer/MyView1/MyView1Test/MyView1Test-Prefix.pch
-c000000004EB9DB730000000000000145
-t1320803187
-s325
-
-N/Developer/MyView1/MyView1Test/SampleLibTest.m
-c000000004EB9E12200000000000003F5
-t1320804642
-s1013
-
-N/Developer/MyView1/MyView1Test/en.lproj/InfoPlist.strings
-c000000004EB9DB73000000000000002D
-t1320803187
-s45
-
-N/Developer/MyView1/MyView1Test/main.m
-c000000004EB9DC4C0000000000000158
-t1320803404
-s344
-
-N/Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app
-t1320804618
-s136
-
-N/Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app.dSYM
-t2
-s0
-
-N/Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/Info.plist
-t1320804618
-s841
-
-N/Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/MyView1Test
-t2
-s0
-
-N/Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/PkgInfo
-t1320804618
-s8
-
-N/Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/MyView1Test.LinkFileList
-c000000004EB9E10A00000000000000DD
-t1320804618
-s221
-
-N/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/SampleLibTest.o
-t2
-s0
-
-N/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/main.o
-t1320804618
-s2760
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk
-c000000004E9605F10000000000000110
-t1318454769
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004E72F1CC0000000000245480
-t1316155852
-s2380928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004E72F2960000000000353830
-t1316156054
-s3487792
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004E7806AB00000000008F7390
-t1316488875
-s9401232
-
-N/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch.pth
-t1320804618
-s3924572
-
-NMyView1Test/MyView1Test-Info.plist
-c000000004EB9DB7300000000000004BE
-t1320803187
-s1214
-
-CBuild AST from /Developer/MyView1/MyView1Test/SampleLibTest.m
-r0
-
-CBuild AST from /Developer/MyView1/MyView1Test/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa46cddee186ab441^cfbfddee186ab441^---0#1#0#--18"Check dependencies36"9DA7E6F1-973C-4005-9292-F790790679CA-
-
-CCompileC build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/SampleLibTest.o /Developer/MyView1/MyView1Test/SampleLibTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s342497518.885526
-e342497518.917130
-r0
-xCompileC
-xbuild/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/SampleLibTest.o
-x/Developer/MyView1/MyView1Test/SampleLibTest.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Developer/MyView1/MyView1Test/SampleLibTest.m:2:9: fatal error: 'OCMock/OCMock.h' file not found [2]
-o #import <OCMock/OCMock.h>
-o         ^
-o1 error generated.
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Developer/MyView1/MyView1Test/SampleLibTest.m5bcde2ee186ab441^0dc4eaee186ab441^-159"/Developer/MyView1/MyView1Test/SampleLibTest.m:2:9: fatal error: 'OCMock/OCMock.h' file not found [2] #import <OCMock/OCMock.h>         ^1 error generated.1(21%IDEActivityLogMessage2@32"'OCMock/OCMock.h' file not found-342497518#0#102#-2#-23%DVTTextDocumentLocation3@62"file://localhost/Developer/MyView1/MyView1Test/SampleLibTest.m0000000000000000^1#8#1#8#18446744073709551615#0#29"Lexical or Preprocessor Issue--0#0#0#-19%DVTDocumentLocation4@62"file://localhost/Developer/MyView1/MyView1Test/SampleLibTest.m0000000000000000^2545"CompileC build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/SampleLibTest.o MyView1Test/SampleLibTest.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/MyView1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-generated-files.hmap -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-own-target-headers.hmap -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-all-target-headers.hmap -iquote /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-project-headers.hmap -I/Developer/MyView1/build/Debug-iphonesimulator/include "-I“/Developer/MyView1/Libraries”" -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/DerivedSources/i386 -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/DerivedSources -F/Developer/MyView1/build/Debug-iphonesimulator -F/Developer/MyView1 -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch -MMD -MT dependencies -MF /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/SampleLibTest.d -c /Developer/MyView1/MyView1Test/SampleLibTest.m -o /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/SampleLibTest.o36"33F177DF-C631-4238-ACAC-75C2E39D30F4-
-
-CCompileC build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/main.o /Developer/MyView1/MyView1Test/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s342497418.710446
-e342497418.750127
-r1
-xCompileC
-xbuild/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/main.o
-x/Developer/MyView1/MyView1Test/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Compile /Developer/MyView1/MyView1Test/main.m2effb58a186ab441^7009c08a186ab441^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Developer/MyView1/MyView1Test/main.m0000000000000000^2500"CompileC build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/main.o MyView1Test/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/MyView1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-generated-files.hmap -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-own-target-headers.hmap -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-all-target-headers.hmap -iquote /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-project-headers.hmap -I/Developer/MyView1/build/Debug-iphonesimulator/include "-I“/Developer/MyView1/Libraries”" -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/DerivedSources/i386 -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/DerivedSources -F/Developer/MyView1/build/Debug-iphonesimulator -F/Developer/MyView1 -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch -MMD -MT dependencies -MF /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/main.d -c /Developer/MyView1/MyView1Test/main.m -o /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/Objects-normal/i386/main.o36"0C94B6AF-EB49-4CCF-90F6-2FD2A96BEDC3-
-
-CCopyStringsFile /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/en.lproj/InfoPlist.strings MyView1Test/en.lproj/InfoPlist.strings
-r0
-
-CGenerateDSYMFile /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app.dSYM /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/MyView1Test
-r0
-
-CLd /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/MyView1Test normal i386
-r0
-
-CProcessInfoPlistFile /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/Info.plist MyView1Test/MyView1Test-Info.plist
-s342497418.370588
-e342497418.376921
-r1
-xProcessInfoPlistFile
-x/Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/Info.plist
-xMyView1Test/MyView1Test-Info.plist
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process MyView1Test/MyView1Test-Info.plistfdf95e8a186ab441^fe7f608a186ab441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/MyView1/MyView1Test/MyView1Test-Info.plist0000000000000000^554"ProcessInfoPlistFile build/Debug-iphonesimulator/MyView1Test.app/Info.plist MyView1Test/MyView1Test-Info.plist    cd /Developer/MyView1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility MyView1Test/MyView1Test-Info.plist -genpkginfo /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app/Info.plist36"A98D81A8-FD85-4C8E-8834-87931753C78C-
-
-CProcessPCH /Users/aditya15417/Library/Developer/Xcode/DerivedData/MyView1-bbwyjlienkgvvegrjqllrfljnysm/Index/PrecompiledHeaders/MyView1Test-Prefix-dymhuhodgenzneftrpfsylojsdrd_ast/MyView1Test-Prefix.pch.pth MyView1Test/MyView1Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch.pth MyView1Test/MyView1Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s342497418.384768
-e342497418.702907
-r1
-xProcessPCH
-x/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch.pth
-xMyView1Test/MyView1Test-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile MyView1Test/MyView1Test-Prefix.pch569c628a186ab441^3df2b38a186ab441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Developer/MyView1/MyView1Test/MyView1Test-Prefix.pch0000000000000000^2573"ProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch.pth MyView1Test/MyView1Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/MyView1    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.0.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-generated-files.hmap -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-own-target-headers.hmap -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-all-target-headers.hmap -iquote /Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/MyView1Test-project-headers.hmap -I/Developer/MyView1/build/Debug-iphonesimulator/include "-I“/Developer/MyView1/Libraries”" -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/DerivedSources/i386 -I/Developer/MyView1/build/MyView1.build/Debug-iphonesimulator/MyView1Test.build/DerivedSources -F/Developer/MyView1/build/Debug-iphonesimulator -F/Developer/MyView1 -c /Developer/MyView1/MyView1Test/MyView1Test-Prefix.pch -o /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/MyView1Test-Prefix-dayfuvzqpynfvmfznuyfdwwpcjcw/MyView1Test-Prefix.pch.d36"3B5C89B4-A2A9-4946-B04A-3127C52E8DCF-
-
-CTouch /Developer/MyView1/build/Debug-iphonesimulator/MyView1Test.app
-r0
-

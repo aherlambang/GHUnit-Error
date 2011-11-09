@@ -23,6 +23,7 @@
 		536155AC146A131E005E1BA1 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536155AB146A131E005E1BA1 /* GHUnitIOS.framework */; };
 		536155CE146A1795005E1BA1 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536155C6146A1795005E1BA1 /* libOCMock.a */; };
 		536155D7146A187A005E1BA1 /* SampleLibTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 536155D6146A187A005E1BA1 /* SampleLibTest.m */; };
+		536155FB146A547A005E1BA1 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 536155C6146A1795005E1BA1 /* libOCMock.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				536155FB146A547A005E1BA1 /* libOCMock.a in Frameworks */,
 				536155AC146A131E005E1BA1 /* GHUnitIOS.framework in Frameworks */,
 				53615593146A12F3005E1BA1 /* UIKit.framework in Frameworks */,
 				53615594146A12F3005E1BA1 /* Foundation.framework in Frameworks */,
@@ -159,8 +161,8 @@
 		536155C5146A1795005E1BA1 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				536155C6146A1795005E1BA1 /* libOCMock.a */,
 				536155C7146A1795005E1BA1 /* OCMock */,
+				536155C6146A1795005E1BA1 /* libOCMock.a */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
